@@ -1,0 +1,50 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+html{
+	margin: 0;
+	padding: 0;
+	height:100%;
+}
+
+body {
+	padding: 0;
+	background-image: url(image-path('perspectives.jpg'));
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	}
+
+.img-fluid {
+	height: auto;
+	display: block;
+  	max-width: 100%;
+  	height: auto;
+}
+
+.navbar-custom .navbar-toggle .icon-bar {
+	background-color: #848789;
+}
+
+.navbar .nav > li > a {
+	color: #000000;
+}
+
+.navbar-custom {
+	background-color: #848789;
+}
+
+.navbar-brand {
+	color: #000000;
+}
+
+.panel-primary > .panel-heading {
+	background-color: #848789 !important;
+	color: #bed4e5;
+}
+
+.panel-primary > .panel-heading h4 {
+	color: #bed4e5;
+}
